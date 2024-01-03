@@ -1,0 +1,68 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 5opx;
+}
+
+.container{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title{
+    background-color: hsl(47, 88%,63%);
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.date{
+    font-weight: 400;
+}
+.paragraph{
+    font-weight: 500;
+    font-size: 16px
+}
+
+h2{
+    margin: 20px 0;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img{
+    width: 40px;
+}
+
+.profile p{
+    font-weight: 600;
+    font-size: 16px;
+}
