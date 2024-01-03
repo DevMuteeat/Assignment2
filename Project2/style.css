@@ -60,6 +60,7 @@ body{
     color:#e5e5e5;
     border-radius: 4px;
     border: 1px solid #dddcdccc;
+    border-bottom-width:3px ;
     
 
 }
@@ -85,7 +86,6 @@ h1{
     margin-left: 80px;
     justify-content: center;
     align-items: center;
-
 }
 
 a{
